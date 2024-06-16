@@ -6,7 +6,8 @@
   min-height: 10vh; 
   display: flex; 
   justify-content: center; 
-  align-items: center; 
+  align-items: center;
+  width: 100%; 
   } 
   .search-bar{ 
   width: 50%; 
@@ -32,4 +33,19 @@
   justify-content: space-around; 
   flex-wrap: wrap; 
   } 
-  
+  .Navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .fav-action{
+    background: none;
+  }
+  .fav-action:focus{
+    outline: none;
+  }
+  .fav-btn{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
